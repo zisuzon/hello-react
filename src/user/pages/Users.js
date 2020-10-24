@@ -7,19 +7,25 @@ const Users = () => {
       id: 'u1',
       name: 'Suzon',
       image: 'https://via.placeholder.com/150',
-      places: 3 
+      places: 1
     },
     {
       id: 'u2',
       name: 'Sumon',
       image: 'https://via.placeholder.com/150',
-      places: 2
+      places: 1
     },
     {
       id: 'u3',
       name: 'Titon',
       image: 'https://via.placeholder.com/150',
-      places: 1
+      places: 2
+    },
+    {
+      id: 'u4',
+      name: 'Ifaz',
+      image: 'https://via.placeholder.com/150',
+      places: 0
     }
   ]
   return <UserList items={USERS} />
